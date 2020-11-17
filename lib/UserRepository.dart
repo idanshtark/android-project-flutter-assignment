@@ -7,7 +7,6 @@ enum Status { Authenticated, Authenticating, Unauthenticated }
 
 class UserRepository with ChangeNotifier {
   FirebaseAuth _auth;
-  FirebaseStorage _storage;
   User _user;
   String _userId;
   String _userEmail;

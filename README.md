@@ -1,8 +1,4 @@
-# *hello_me Application*
-
-## *Part 1*
-
-### *Dry*
+## *Dry - Part 1*
 
 1.	The class that is used to implement the controller pattern in the `snapping_sheet` library is
     `SnappingSheetController`. This controller allows the developer to control the sheet (current)

@@ -6,7 +6,6 @@ import 'UserRepository.dart';
 class Favorites with ChangeNotifier {
 
   String _userId;
-  String _userPic;
   UserRepository _user;
   Set<WordPair> _saved = Set<WordPair>();
   CollectionReference _collection = FirebaseFirestore.instance.collection(
